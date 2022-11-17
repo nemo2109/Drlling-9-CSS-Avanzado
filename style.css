@@ -27,12 +27,21 @@
   border-radius: 2rem;
   padding: 1%;
 }
+.menu__navegation__box__botton {
+  position: relative;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
 .menu__navegation__box__parrafo {
   margin-top: 1%;
 }
 .menu__navegation__label {
   color: purple;
   margin-bottom: 0%;
+}
+
+.menu__navegation__box__botton:hover {
+  left: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

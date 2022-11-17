@@ -32,9 +32,17 @@
                    padding: 1%;
                    
                 }
+                &__botton{
+                    position: relative;
+                    animation-duration: 3s;
+                    animation-direction: alternate;
+                }
                 &__parrafo{
                     margin-top: 1%;
                 }
+               
+                  
+               
                
         }
         &__label{
@@ -43,4 +51,10 @@
         }
         
     }
+}
+
+
+    
+.menu__navegation__box__botton:hover{
+    left: 20%;
 }
