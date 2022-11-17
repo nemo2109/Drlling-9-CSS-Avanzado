@@ -1,0 +1,46 @@
+.header{
+    background-color: peru;
+    padding: 0.3rem;
+    &__navegation{
+        &__titulo{
+            color: white;
+            font-style: italic;
+            text-align: center;
+        }
+    }
+}
+
+.menu{
+    &__navegation{
+        &__box{
+            margin-left: 5rem;
+            margin-top: 3rem;
+            
+                &__boton{
+                    width: 50rem;
+                    border-color: chocolate;
+                    border-radius: 5rem;
+                }
+                &__botton{
+                   width: 5rem;
+                   border-color: white;
+                   border-style: none;
+                   background-color: black;
+                   color: white;
+                   text-align: center;
+                   border-radius: 2rem;
+                   padding: 1%;
+                   
+                }
+                &__parrafo{
+                    margin-top: 1%;
+                }
+               
+        }
+        &__label{
+            color: purple;
+            margin-bottom: 0%;
+        }
+        
+    }
+}

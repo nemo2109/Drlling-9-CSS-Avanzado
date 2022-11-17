@@ -1,3 +1,38 @@
+.header {
+  background-color: peru;
+  padding: 0.3rem;
+}
+.header__navegation__titulo {
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
 
+.menu__navegation__box {
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.menu__navegation__box__boton {
+  width: 50rem;
+  border-color: chocolate;
+  border-radius: 5rem;
+}
+.menu__navegation__box__botton {
+  width: 5rem;
+  border-color: white;
+  border-style: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 1%;
+}
+.menu__navegation__box__parrafo {
+  margin-top: 1%;
+}
+.menu__navegation__label {
+  color: purple;
+  margin-bottom: 0%;
+}
 
 /*# sourceMappingURL=style.css.map */
