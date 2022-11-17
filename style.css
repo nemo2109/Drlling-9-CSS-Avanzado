@@ -9,13 +9,19 @@
 }
 
 .menu__navegation__box {
-  margin-left: 5rem;
-  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 .menu__navegation__box__boton {
   width: 50rem;
   border-color: chocolate;
   border-radius: 5rem;
+}
+.menu__navegation__box__boton {
+  position: relative;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
 }
 .menu__navegation__box__botton {
   width: 5rem;
@@ -29,7 +35,7 @@
 }
 .menu__navegation__box__botton {
   position: relative;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-direction: alternate;
 }
 .menu__navegation__box__parrafo {
@@ -42,6 +48,13 @@
 
 .menu__navegation__box__botton:hover {
   left: 20%;
+  transform: rotate(150deg);
+}
+
+.menu__navegation__box__boton:hover {
+  left: 20%;
+  top: 100px;
+  transform: rotate(120deg);
 }
 
 /*# sourceMappingURL=style.css.map */

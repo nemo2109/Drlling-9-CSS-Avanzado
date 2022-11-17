@@ -13,13 +13,18 @@
 .menu{
     &__navegation{
         &__box{
-            margin-left: 5rem;
-            margin-top: 3rem;
-            
+            display: flex;
+            justify-content: center;
+            margin-top: 5%;
                 &__boton{
                     width: 50rem;
                     border-color: chocolate;
                     border-radius: 5rem;
+                }
+                &__boton{
+                    position: relative;
+                    animation-duration: 5s;
+                    animation-direction: alternate-reverse;
                 }
                 &__botton{
                    width: 5rem;
@@ -34,7 +39,7 @@
                 }
                 &__botton{
                     position: relative;
-                    animation-duration: 3s;
+                    animation-duration: 5s;
                     animation-direction: alternate;
                 }
                 &__parrafo{
@@ -57,4 +62,10 @@
     
 .menu__navegation__box__botton:hover{
     left: 20%;
+    transform: rotate(150deg);
+}
+.menu__navegation__box__boton:hover{
+    left: 20%;
+    top: 100px;
+    transform: rotate(120deg);
 }
